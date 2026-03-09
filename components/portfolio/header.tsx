@@ -48,7 +48,7 @@ export function Header() {
             <AvatarFallback className="bg-primary text-primary-foreground font-bold">DM</AvatarFallback>
           </Avatar>
           <span className="font-bold text-lg hidden sm:inline-block">
-            Diego<span className="text-primary">.</span>dev
+            Diego.<span className="text-primary">dev</span>
           </span>
         </a>
 
