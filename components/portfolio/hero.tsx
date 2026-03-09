@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Github, Linkedin } from "lucide-react"
+import { Github, Linkedin, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Hero() {
@@ -74,7 +74,7 @@ export function Hero() {
               }`}
           >
             <span className="text-pretty">
-             Transformo ideas en experiencias digitales excepcionales. Especializado en React, Node.js y desarrollo de servidores.
+              Transformo ideas en experiencias digitales excepcionales. Especializado en React, Node.js y desarrollo de servidores.
             </span>
           </p>
 
@@ -97,6 +97,20 @@ export function Hero() {
               asChild
             >
               <a href="#projects">Ver proyectos</a>
+            </Button>
+            <Button
+              size="lg"
+              variant="ghost"
+              className="px-8 py-6 text-lg font-semibold rounded-xl border-2 border-dashed border-muted-foreground/30 hover:border-primary/50 hover:bg-primary/5 hover:text-primary transition-all duration-300 group"
+              asChild
+            >
+              <a
+                href="/cv.pdf"
+                download="Diego_Martins_CV.pdf"
+              >
+                <Download className="h-5 w-5 mr-2 transition-transform duration-300 group-hover:translate-y-0.5" />
+                Descargar CV
+              </a>
             </Button>
           </div>
 
@@ -125,8 +139,6 @@ export function Hero() {
             </a>
           </div>
         </div>
-
-
       </div>
     </section>
   )
