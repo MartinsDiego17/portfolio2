@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [Tu nombre] — Portfolio
 
-## Getting Started
+Desarrollador web fullstack con foco en React, Next.js y Node.js. Este sitio reúne los proyectos que mejor representan mi forma de trabajar y las decisiones que tomo cuando construyo productos digitales.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Sobre mí
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Construyo aplicaciones web de principio a fin: desde la interfaz que ve el usuario hasta la lógica del servidor y la base de datos que la sostiene. Me interesa escribir código que funcione bien hoy y que sea fácil de mantener y escalar mañana.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Trabajo con comodidad tanto en el frontend como en el backend, y valoro la capacidad de moverme entre ambos sin perder criterio en ninguno de los dos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Stack principal
 
-To learn more about Next.js, take a look at the following resources:
+En el frontend trabajo con **React** y **Next.js**, aprovechando sus capacidades de renderizado para construir interfaces rápidas, accesibles y bien estructuradas. En el backend desarrollo con **Node.js** y **NestJS**, priorizando arquitecturas claras, código organizado y APIs que sean fáciles de consumir y extender.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Qué encontrás en este portfolio
 
-## Deploy on Vercel
+Una selección de proyectos reales y personales que cubren distintos tipos de desafíos: desde landing pages y productos orientados al usuario final hasta aplicaciones con lógica de negocio compleja, autenticación, integración de pagos y gestión de datos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cada proyecto incluye contexto sobre el problema que resuelve, las decisiones técnicas tomadas y el resultado final.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Lo que me diferencia
+
+No separo el rol de frontend del de backend porque en la práctica los problemas tampoco están separados. Entender ambos lados me permite tomar mejores decisiones de arquitectura, anticipar fricciones entre capas y entregar productos más coherentes.
+
+---
+
+## Contacto
+
+¿Tenés una posición abierta o un proyecto que encaje con mi perfil?
+
+**[tu@email.com](mailto:tu@email.com)**
+**[linkedin.com/in/tuperfil](https://linkedin.com/in/tuperfil)**
