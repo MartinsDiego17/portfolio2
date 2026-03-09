@@ -24,7 +24,6 @@ export function Contact() {
   const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
-    console.log("ENVIROMENT:", enviroment);
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
