@@ -1,4 +1,4 @@
-# [Tu nombre] — Portfolio
+# Diego Martins — Portfolio
 
 Desarrollador web fullstack con foco en React, Next.js y Node.js. Este sitio reúne los proyectos que mejor representan mi forma de trabajar y las decisiones que tomo cuando construyo productos digitales.
 
@@ -36,5 +36,5 @@ No separo el rol de frontend del de backend porque en la práctica los problemas
 
 ¿Tenés una posición abierta o un proyecto que encaje con mi perfil?
 
-**[tu@email.com](mailto:tu@email.com)**
-**[linkedin.com/in/tuperfil](https://linkedin.com/in/tuperfil)**
+**[diegomartinsupe@hotmail.com](diegomartinsupe@hotmail.com)**
+**[linkedin.com/in/diego-martins](https://www.linkedin.com/in/diego-martins-563954278/)**
