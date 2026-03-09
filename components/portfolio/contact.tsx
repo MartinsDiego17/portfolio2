@@ -7,6 +7,9 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import emailjs from '@emailjs/browser'
+import { enviroment } from "@/lib/enviroment"
+const { contact } = enviroment;
+const { emailServiceId, emailTemplateId, emailApiKey } = contact;
 
 export function Contact() {
   const [isVisible, setIsVisible] = useState(false)
@@ -21,6 +24,7 @@ export function Contact() {
   const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
+    console.log("ENVIROMENT:", enviroment);
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -43,15 +47,15 @@ export function Contact() {
 
     try {
       await emailjs.send(
-        'service_g7uvaff',
-        'template_i6p2itp',
+        emailServiceId || "",
+        emailTemplateId || "",
         {
           user_name: formData.name,
           user_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
-        'ypNeLhOjGXx219rNc'
+        emailApiKey || ""
       )
       setIsSubmitted(true)
       setFormData({ name: "", email: "", subject: "", message: "" })

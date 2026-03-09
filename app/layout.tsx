@@ -16,8 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'Diego Martins | Fullstack Developer',
-  description: 'Fullstack Developer especializado en React, Node.js y arquitecturas cloud. Creando experiencias digitales únicas.',
-  generator: 'v0.app',
+  description: 'Fullstack Developer especializado en React, Node.js y desarrollo de servidores. Creando experiencias digitales únicas.',
   keywords: ['fullstack developer', 'react', 'node.js', 'typescript', 'portfolio'],
   authors: [{ name: 'Diego Martins' }],
   icons: {
