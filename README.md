@@ -1,3 +1,5 @@
+📄 [Descargar CV](./public/cv.pdf)
+
 # Diego Martins — Portfolio
 
 Desarrollador web fullstack con foco en React, Next.js y Node.js. Este sitio reúne los proyectos que mejor representan mi forma de trabajar y las decisiones que tomo cuando construyo productos digitales.
