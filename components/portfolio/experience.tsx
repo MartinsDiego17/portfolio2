@@ -30,8 +30,8 @@ const experiences: Experience[] = [
     id: 2,
     title: "Mesero",
     company: "La Barra Boulevard",
-    location: "Madrid, España",
-    period: "2021 - 2023",
+    location: "Iquique, Chile",
+    period: "2023 - 2024",
     description: "Desarrollando habilidades de atención al cliente, servicio personalizado y el uso de software de gestión de restaurantes (POS).",
     technologies: ["Servicio al cliente", "Trabajo en equipo"],
     link: "https://www.instagram.com/labarraboulevard/"
