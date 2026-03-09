@@ -1,4 +1,4 @@
-
+[Descargar CV](./public/cv.pdf)
 
 # Diego Martins — Portfolio
 
@@ -38,6 +38,6 @@ No separo el rol de frontend del de backend porque en la práctica los problemas
 
 ¿Tenés una posición abierta o un proyecto que encaje con mi perfil?
 
-[Descargar CV](./public/cv.pdf)
+
 **[diegomartinsupe@hotmail.com](diegomartinsupe@hotmail.com)**
 **[linkedin.com/in/diego-martins](https://www.linkedin.com/in/diego-martins-563954278/)**
