@@ -8,6 +8,7 @@ import zendaImage from "@/public/images/projects/zenda.png";
 import yourHiringImage from "@/public/images/projects/yourhiring.png";
 import pulsetech from "@/public/images/projects/pulsetech.png";
 import zaporta from "@/public/images/projects/zaporta.png";
+import leadzone from "@/public/images/projects/leadzone.jpeg";
 
 const projects = [
   {
@@ -20,18 +21,28 @@ const projects = [
     githubUrl: "https://github.com/MartinsDiego17/zenda",
     featured: true,
   },
-  {
+    {
     id: 2,
+    title: "Leadzone",
+    description: "Plataforma dedicada a la gestión personalizada del proceso de prospección de desarrolladores freelancers",
+    image: leadzone.src,
+    technologies: ["Next.Js", "Typescript", "Tailwind", "NestJs", "Supabase"],
+    liveUrl: "https://leadzone-sigma.vercel.app/",
+    githubUrl: "https://github.com/MartinsDiego17/Leadzone",
+    featured: true,
+  },
+  {
+    id: 3,
     title: "Pulsetech",
     description: "Aplicación para agencia propia de desarrollo y diseño de sitios web",
     image: pulsetech.src,
     technologies: ["Astro", "Typescript", "Tailwind"],
     liveUrl: "https://pulsetech-chi.vercel.app/",
     githubUrl: "https://github.com/MartinsDiego17/Pulsetech",
-    featured: true,
+    featured: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Landing para personal trainer",
     description: "Aplicación destinada a la promoción de servicios y productos de un entrenador personal",
     image: zaporta.src,
@@ -41,7 +52,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "YourHiring",
     description: "Gestión de pustulaciones laborales",
     image: yourHiringImage.src,
