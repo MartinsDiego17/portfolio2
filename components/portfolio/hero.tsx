@@ -105,8 +105,8 @@ export function Hero() {
               asChild
             >
               <a
-                href="/cv.pdf"
-                download="Diego_Martins_CV.pdf"
+                href="/Cv_Diego_Martins.pdf"
+                download="Cv_Diego_Martins.pdf"
               >
                 <Download className="h-5 w-5 mr-2 transition-transform duration-300 group-hover:translate-y-0.5" />
                 Descargar CV
